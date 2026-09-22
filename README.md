@@ -1,16 +1,16 @@
 # 🥐 Sweet Moments — Artisanal Bakery Web App
 
-A beautifully designed, fully responsive bakery web application built with **React**, **Tailwind CSS**, and **React Router DOM**. **Sweet Moments** offers customers a seamless visual menu experience to explore freshly baked daily treats with dynamic category filtering.
+A beautifully designed, fully responsive bakery web application built with **React**, **Tailwind CSS**, and **React Router DOM**. **Sweet Moments** offers customers a seamless interactive experience to explore freshly baked treats, filter dynamic menus, learn about our heritage, and get in touch.
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-- **Dynamic Category Filtering**: Instantly filter items across *Cakes*, *Cupcakes*, *Pastries*, and *Drinks*.
-- **Responsive Grid Layout**: Clean, mobile-friendly layout optimized for mobile, tablet, and desktop screens.
-- **Interactive UI**: Elegant color palette, subtle hover animations, and custom typography ('Playfair Display').
-- **Component-Driven Design**: Clean component separation (`Menu`, `MenuGrid`, `MenuFilter`, and `MenuCard`).
-- **Client-Side Routing**: Smooth page transitions powered by `react-router-dom`.
+- **Dynamic Category Filtering**: Seamlessly filter baked goods across *Cakes*, *Cupcakes*, *Pastries*, and *Drinks*.
+- **Component-Driven Architecture**: Modular setups across distinct views including dedicated Hero banners (`Herosection.jsx`, `MenuHero.jsx`, `AboutHero.jsx`, `ContactHero.jsx`), dynamic forms, and product grids.
+- **Responsive Grid Layout**: Custom grid system optimized for mobile, tablet, and desktop viewports using Tailwind CSS.
+- **Client-Side Routing**: Smooth page navigation powered by `react-router-dom` with custom 404 error handling (`NotFound.jsx`).
+- **Aesthetic UI & Typography**: Curated warm bakery color palette with elegant serif headings ('Playfair Display').
 
 ---
 
@@ -19,16 +19,15 @@ A beautifully designed, fully responsive bakery web application built with **Rea
 - **Frontend**: React.js (Vite)
 - **Styling**: Tailwind CSS
 - **Routing**: React Router DOM
-- **Assets**: Unsplash API image URLs
+- **Assets**: Unsplash API image integration
 
 ---
 
-   
 ## 📁 Project Structure
 
 ```text
 src/
-├── components/         
+├── components/          # Reusable UI components
 │   ├── AboutHero.jsx
 │   ├── AboutStory.jsx
 │   ├── AboutValues.jsx
@@ -45,7 +44,7 @@ src/
 │   ├── Navbar.jsx
 │   ├── NotFoundActions.jsx
 │   └── NotFoundContent.jsx
-├── pages/               
+├── pages/               # Application page views
 │   ├── About.jsx
 │   ├── Contact.jsx
 │   ├── Home.jsx
